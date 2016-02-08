@@ -62,4 +62,5 @@ def main():
     page.close()
 
 if __name__ == "__main__":
+    sys.argv += "--no-cache"
     main()
